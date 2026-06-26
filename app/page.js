@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Image } from "next/image";
 import {
   Dialog,
   DialogPanel,
@@ -176,7 +177,7 @@ export default function Home() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">River City Recycling</span>
               <img
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
@@ -281,12 +282,12 @@ export default function Home() {
         <div className="relative isolate overflow-hidden pt-14 pb-16 sm:pb-20">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-            className="absolute inset-0 -z-10 size-full object-cover not-dark:hidden"
+            src="/75ab54ad-37c5-4e0c-87f6-fb9075f275a2.png"
+            className="absolute inset-0 -z-10 size-full object-cover not-dark:hidden opacity-10"
           />
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=fff&sat=-100&exp=15&blend-mode=overlay"
+            src="/75ab54ad-37c5-4e0c-87f6-fb9075f275a2.png"
             className="absolute inset-0 -z-10 size-full object-cover opacity-10 dark:hidden"
           />
           <div
@@ -317,12 +318,11 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl dark:text-white">
-                  Data to enrich your online business
+                  Turn Scrap into Cash
                 </h1>
                 <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 dark:text-gray-400">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat.
+                  Fast, fair, and hassle-free scrap metal recycling. Get paid
+                  for your metal and help keep valuable materials in use.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
@@ -342,7 +342,7 @@ export default function Home() {
             </div>
 
             {/* Logo cloud */}
-            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            {/* <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               <img
                 alt="Transistor"
                 src="https://tailwindcss.com/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg"
@@ -417,7 +417,7 @@ export default function Home() {
                 height={48}
                 className="col-span-2 col-start-2 max-h-12 w-full object-contain not-dark:hidden sm:col-start-auto lg:col-span-1"
               />
-            </div>
+            </div> */}
           </div>
           <div
             aria-hidden="true"
