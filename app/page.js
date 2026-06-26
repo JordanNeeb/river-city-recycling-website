@@ -229,7 +229,7 @@ export default function Home() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-gray-900 dark:sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">River City Recycling</span>
                 <img
                   alt=""
                   src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
@@ -318,7 +318,7 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl dark:text-white">
-                  Turn Scrap into Cash
+                  Scrap Metal Made Simple
                 </h1>
                 <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8 dark:text-gray-400">
                   Fast, fair, and hassle-free scrap metal recycling. Get paid
@@ -529,17 +529,17 @@ export default function Home() {
                   </svg>
                   <blockquote className="text-xl/8 font-semibold text-white sm:text-2xl/9 dark:text-gray-100">
                     <p>
-                      Gravida quam mi erat tortor neque molestie. Auctor aliquet
-                      at porttitor a enim nunc suscipit tincidunt nunc. Et non
-                      lorem tortor posuere. Nunc eu scelerisque interdum eget
-                      tellus non nibh scelerisque bibendum.
+                      They were incredibly friendly, honest, and easy to deal
+                      with from start to finish. Everything felt straightforward
+                      and transparent, and we knew we were getting a fair deal
+                      the whole time.
                     </p>
                   </blockquote>
                   <figcaption className="mt-8 text-base">
                     <div className="font-semibold text-white dark:text-gray-100">
                       Judith Black
                     </div>
-                    <div className="mt-1 text-gray-400">CEO of Tuple</div>
+                    <div className="mt-1 text-gray-400">Happy Customer</div>
                   </figcaption>
                 </figure>
               </div>
