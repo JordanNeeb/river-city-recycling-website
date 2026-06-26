@@ -180,13 +180,13 @@ export default function Home() {
               <span className="sr-only">River City Recycling</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto dark:hidden"
+                src="/RiverCityLogoColour.png"
+                className="h-14 w-auto dark:hidden"
               />
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto not-dark:hidden"
+                src="/RiverCityLogoColour.png"
+                className="h-14 w-auto not-dark:hidden"
               />
             </a>
           </div>
@@ -531,8 +531,7 @@ export default function Home() {
                     <p>
                       They were incredibly friendly, honest, and easy to deal
                       with from start to finish. Everything felt straightforward
-                      and transparent, and we knew we were getting a fair deal
-                      the whole time.
+                      and transparent, and we knew we were getting a fair deal.
                     </p>
                   </blockquote>
                   <figcaption className="mt-8 text-base">
